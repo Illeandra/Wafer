@@ -1,0 +1,130 @@
+.wafer-container{
+    width: 100%;
+    border: solid 1px #DBDBDB;
+    min-height: 100px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.toolbar{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 100%;
+    min-height: 5%;
+    background-color: #F4F4F4;
+    border-radius : 0.2em;
+    font-size: 28px;
+    margin: 0;
+    color: #A5A5A5;
+}
+.submit-btn{
+    color: #ffffff !important;
+    border: none !important;
+    background: #2B79E5;
+    border-radius: 0.2em;
+}
+.submit-btn:hover, .submit-btn:active, .submit-btn:focus{
+    transform: scale(1.05);
+}
+.cencel-btn{
+    color: #ffffff;
+    border: none !important;
+    border-radius: 0.2em;
+    background: #E84E4E;
+}
+.cencel-btn:hover, .cencel-btn:active, cencel-btn:focus{
+    background: #F74A4A;
+    transform: scale(1.05);
+}
+button.item *{
+    background: none;
+}
+.item{
+    background: #F4F4F4;
+    color: #000000;
+    margin: 5px;
+    border: none !important;
+    border-radius: 0.1em;
+}
+.input-classes:active, .input-classes:hover, .input-classes:focus{
+    transform: scale(1.01);
+}
+.toolbar .item:hover{
+    background-color: #bfbfbf;
+}
+.toolbar .item:focus{
+    background-color: #383838;
+    color: #ffffff;
+}
+.heading{
+    font-size: 15px;
+    width: 120px;
+}
+.heading .item{
+    font-size: 30px;
+    min-width: 900px;
+    width: 100%;
+}
+ 
+.Maintextarea{
+    margin: 0;
+    border: 1px solid #BFBFBF;
+    border-radius : 0.2em;
+    outline: none !important;
+    }
+.Maintextarea:focus{
+    border: 1px solid #BFE3FF;
+    border-radius : 0.2em;
+    outline: none !important;
+    }
+.gridToolInput{
+    display: flex;
+}
+.gridToolInput *{
+    margin-right: 25px;
+}
+
+.gridToolTablePre table{
+   width: 100%;
+}
+.floatingLayer{
+    padding: 10px;
+    border-radius: 0.2em;
+    transition: 0.5s;
+    position: absolute;
+    top: 12rem;
+    z-index: 4;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+    max-width: 400px;
+    height: auto;
+    background: #ffffff;
+    box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.39);
+    -webkit-box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.39);
+    -moz-box-shadow: -1px 2px 4px 1px rgba(0,0,0,0.39);
+}
+.toolBarBottom{
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+}
+.toolBarBottom *{
+    margin: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+.wafer-input{
+    padding: 5px;
+    border-radius: 0.1em;
+    border: 1px solid #BFBFBF;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+.wafer-input:focus{
+    outline: none !important;
+    border: 1px solid #4dabf7;
+}
