@@ -9,7 +9,7 @@ include waferText.js and waferStyle.css in header.
     <link rel="stylesheet" href="waferStyle.css">
     <script src="waferText.js"></script>
 
-wafer.js declaration to div.
+waferText.js declaration to div.
 
      <div id="content"></div>
       
