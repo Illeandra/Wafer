@@ -1,2 +1,2 @@
-# Wafer
-Wafer is a Richtextarea opensource JavaScript framework
+# Wafer-textarea
+Wafer-textarea is a Richtextarea opensource JavaScript framework
