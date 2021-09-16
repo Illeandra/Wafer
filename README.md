@@ -6,16 +6,16 @@ This is the first version there may be some errors
 
 include waferText.js and waferStyle.css in header.
 
-    <link rel="stylesheet" href="waferStyle.css">
-    <script src="waferText.js"></script>
+     <link rel="stylesheet" href="waferStyle.css">
+     <script src="waferText.js"></script>
 
 waferText.js declaration to div.
 
-     <div id="content"></div>
+      <div id="content"></div>
       
-     <script>
+      <script>
         new WaferText('#content');
-     </script>
+      </script>
 
 Sample Results : 👍
 
@@ -23,7 +23,7 @@ Sample Results : 👍
 
 With custom toolbar :
 
-new WaferText('#content').newToolBar(['link', 'bold', 'headingSelection']);
+    new WaferText('#content').newToolBar(['link', 'bold', 'headingSelection']);
 
 Result :
 
