@@ -1,4 +1,7 @@
 # WaferText.js
+
+**deprecated**
+
 WaferText.js is a rich textarea which is completely free and easy to use !
 This is the first version there may be some errors
 
